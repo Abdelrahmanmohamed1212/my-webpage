@@ -1,0 +1,268 @@
+html, body{
+    line-height: 30px !important;
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.bg-image{
+    background-image: url(images/Background-image\ header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+    width: 100%;
+    height: 900px;
+}
+.bg-image-2nd-page{
+    background-image: url(images/Background-image-2nd-page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+    width: 100%;
+    height: 975px;
+}
+.hd-body{
+    right: 50px !important;
+    left: 50px !important;
+    
+}
+.hd-body-1 h1{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 70px; 
+    font-weight: 800;
+}
+.p1{
+    
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 70px !important;
+}
+.hd-body-1{
+    right: 50px !important;
+    left: 50px !important;
+}
+.btn-download{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #D32126;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 228px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-booking{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #D32126;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 450px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.card-style{
+    background-color: #F1F2F2 !important;
+    padding: 20px;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 16px;
+    font-weight:bold;
+    color: black;
+    height: inherit;
+}
+.card-style img {
+    width: 75px;
+    height: 75px;
+}
+.color-head{
+    color: #1302a6 !important;
+}
+
+.logos img{
+    margin-right: 25px;
+}
+.bg-image-1{
+    background-image: url(images/Background-image\ footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: scroll;
+    width: 100%;
+    height: 455px;
+}
+.ft-body{
+    right: 50px !important;
+    left: 50px !important;
+    
+}
+.ft-body h1{
+    font-size: 50px;
+    font-weight:800;
+}
+.container-text p {
+    padding: 15px;
+    text-align: center;
+}
+.container-text p span.typed-text {
+    font-size: 45px;
+    font-weight: bold;
+    color: #1302a6;
+    text-decoration: line-through;
+}
+.container-text p span.cursor {
+    display: inline-block;
+    animation: 1s infinite;
+}
+.container-text p span.cursor.typing {
+    animation: none;
+}
+.styling{
+    text-decoration: none !important;
+} 
+
+@media screen and (max-width: 600px){
+    .ft-body h1{
+        font-size: 35px;
+        
+    }
+    .ft-body p{
+        font-size: 20px;
+    }
+    .footer-11{
+        font-size: 14px;
+        line-height:15px;
+    }
+    .container-text p span.typed-text{
+        font-size: 35px;
+    }
+}
+.ft-body p{
+    font-size: 25px ;
+    font-weight: 500;
+}
+.btn-talk{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #D32126;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px !important;
+    width: 170px;
+}
+.btn-send{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #D32126;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px !important;
+    font-weight: 600;
+    width: 175px;
+}
+.my-form input{
+    height: 62px;
+    padding: 10px 15px;
+    font-size: 14px !important;
+}
+.my-form input:focus{
+    box-shadow: none;
+}
+.my-form textarea{
+    height: 100px;
+    padding: 10px 15px;
+    font-size: 14px !important;
+}
+.my-form textarea:focus{
+    box-shadow: none;
+}
+.footer{
+    background-color: #E7E7E7;
+}
+#popup-1, #popup-2, #popup-3, #popup-4, #popup-5{
+    border:   transparent;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    width: auto !important;
+    font-size: 12px;
+    font-weight:800;
+    left: 20px;
+    margin-bottom: 5px;
+}
+.fadeInLeft{
+    animation: fadeInLeft 1.2s both;
+}
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeInRight{
+    animation: fadeInRight 1.2s both;
+}
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeInTop{
+    animation: fadeInTop 1.2s both;
+}
+@keyframes fadeInTop {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fadeInBottom{
+    animation: fadeInBottom 1.2s both;
+}
+@keyframes fadeInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
